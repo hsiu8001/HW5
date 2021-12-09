@@ -1,0 +1,201 @@
+.back {
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    background: url("img/back.png");
+}
+
+.circle {
+    position: absolute;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 999em;
+    left: calc(50% - 1200px/2 - 600px);
+    top: calc(50% - 1200px/2);
+    
+    background: rgba(253, 180, 75, 0.9);
+}
+
+.go {
+    position: absolute;
+    width: 400px;
+    height: 299.58px;
+    left: 100px;
+    top: 100px;
+
+    filter: grayscale(100%);
+    background: url("img/LET’S\ GO!.png");
+}
+
+.Saly {
+    position: absolute;
+    height: 864px;
+    left: 200px;
+    right: 377px;
+    top: 18px;
+
+    background: url("img/Saly-1.png");
+}
+
+.Taiwan {
+    position: absolute;
+    width: 383.23px;
+    height: 189.4px;
+    left: 111.8px;
+    top: 595.6px;
+
+    filter: grayscale(100%);
+    background: url("img/Taiwan.png");
+}
+
+.text {
+    position: absolute;
+    height: 40px;
+    left: 923px;
+    right: 200px;
+    top: 236px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: 0.2em;
+    color: white;
+}
+
+select[id=city] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+
+    position: static;
+    width: 333px;
+    height: 49px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    border-radius: 40px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 20px 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+}
+
+option {
+    position: static;
+    width: 60px;
+    height: 25px;
+    left: 136.5px;
+    top: 12px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 125%;
+
+    color: #00204A;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 4px;
+}
+
+select[id=type] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+
+    position: static;
+    width: 333px;
+    height: 49px;
+    left: 0px;
+    top: 69px;
+
+    background: #FFFFFF;
+    border-radius: 40px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 20px 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+}
+
+input[type=text] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+
+    position: static;
+    width: 280px;
+    height: 25px;
+    left: 0px;
+    top: 138px;
+
+    background: #F2F4F6;
+    border-radius: 40px;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 20px 0px;
+}
+
+input[type=submit] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    position: static;
+    width: 333px;
+    height: 52px;
+    left: 0px;
+    top: 207px;
+
+    background: #00BBF0;
+    border-radius: 40px;
+
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 20px 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 125%;
+    color: white;
+}
